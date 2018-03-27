@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Dec 17 02:18:46 2017
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : COADEXP8
+Top-level Entity Name : COADEXP8
+Family : Cyclone II
+Total logic elements : 15
+    Total combinational functions : 15
+    Dedicated logic registers : 12
+Total registers : 12
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

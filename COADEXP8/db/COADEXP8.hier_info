@@ -1,0 +1,24 @@
+|COADEXP8
+led[0] <= divide_led:inst.led[0]
+led[1] <= divide_led:inst.led[1]
+CLK => divide_led:inst.sys_clk
+
+
+|COADEXP8|divide_led:inst
+sys_clk => count1[9].CLK
+sys_clk => count1[8].CLK
+sys_clk => count1[7].CLK
+sys_clk => count1[6].CLK
+sys_clk => count1[5].CLK
+sys_clk => count1[4].CLK
+sys_clk => count1[3].CLK
+sys_clk => count1[2].CLK
+sys_clk => count1[1].CLK
+sys_clk => count1[0].CLK
+sys_clk => state.CLK
+sys_clk => sys_clk_out.CLK
+sys_clk => led[0].DATAIN
+led[0] <= sys_clk.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= sys_clk_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,79 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		COADEXP1_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C8Q208C8
+set_global_assignment -name TOP_LEVEL_ENTITY COADEXP1
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:29:33  OCTOBER 10, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name BDF_FILE COADEXP1.bdf
+set_global_assignment -name MISC_FILE "E:/COADEXP1/COADEXP1.dpf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_72 -to 38B
+set_location_assignment PIN_107 -to XORA
+set_location_assignment PIN_130 -to XORB
+set_location_assignment PIN_33 -to XORO
+set_location_assignment PIN_77 -to CTLDN
+set_location_assignment PIN_88 -to CTA
+set_location_assignment PIN_87 -to CTB
+set_location_assignment PIN_86 -to CTC
+set_location_assignment PIN_132 -to CTCLK
+set_location_assignment PIN_81 -to CTENP
+set_location_assignment PIN_82 -to CTENT
+set_location_assignment PIN_80 -to CTCLRN
+set_location_assignment PIN_84 -to CTD
+set_location_assignment PIN_165 -to CTQA
+set_location_assignment PIN_164 -to CTQB
+set_location_assignment PIN_163 -to CTQC
+set_location_assignment PIN_162 -to CTQD
+set_location_assignment PIN_161 -to CTRCO
+set_location_assignment PIN_70 -to 38C
+set_location_assignment PIN_69 -to 38G1
+set_location_assignment PIN_68 -to 38G2AN
+set_location_assignment PIN_67 -to 38G2BN
+set_location_assignment PIN_34 -to 38Y0N
+set_location_assignment PIN_35 -to 38Y1N
+set_location_assignment PIN_37 -to 38Y2N
+set_location_assignment PIN_39 -to 38Y3N
+set_location_assignment PIN_40 -to 38Y4N
+set_location_assignment PIN_41 -to 38Y5N
+set_location_assignment PIN_43 -to 38Y6N
+set_location_assignment PIN_44 -to 38Y7N
+set_location_assignment PIN_74 -to 38A
+set_location_assignment PIN_129 -to A
+set_location_assignment PIN_142 -to O
+set_location_assignment PIN_208 -to TR
+set_global_assignment -name MISC_FILE "D:/大三上资料/课件 真/计算机组成与设计/实验/COADEXP1/COADEXP1.dpf"

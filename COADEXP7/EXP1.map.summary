@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 04 20:25:01 2017
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : EXP1
+Top-level Entity Name : EXP1
+Family : Cyclone II
+Total logic elements : 87
+    Total combinational functions : 87
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 57
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

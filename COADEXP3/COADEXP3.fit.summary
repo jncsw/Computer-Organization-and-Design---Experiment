@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 06 19:38:48 2017
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : COADEXP3
+Top-level Entity Name : COADEXP3
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 12 / 8,256 ( < 1 % )
+    Total combinational functions : 11 / 8,256 ( < 1 % )
+    Dedicated logic registers : 7 / 8,256 ( < 1 % )
+Total registers : 7
+Total pins : 12 / 138 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 165,888 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 36 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

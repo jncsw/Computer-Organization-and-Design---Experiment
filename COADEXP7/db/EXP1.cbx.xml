@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="EXP1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|EXP1|lpm_clshift0:inst2|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_gic.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

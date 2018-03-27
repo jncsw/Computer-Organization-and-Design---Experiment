@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="COADEXP5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|COADEXP5|2114:inst1|RAM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vta1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|COADEXP5|2114:inst|RAM:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vta1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

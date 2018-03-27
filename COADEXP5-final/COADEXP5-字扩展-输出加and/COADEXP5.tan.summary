@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.178 ns
+From           : IO
+To             : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a0~porta_we_reg
+From Clock     : --
+To Clock       : EN
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.412 ns
+From           : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a0~porta_address_reg9
+To             : do2
+From Clock     : ad10
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.562 ns
+From           : ad10
+To             : ch1
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.416 ns
+From           : ad9
+To             : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a0~porta_address_reg9
+From Clock     : --
+To Clock       : ad10
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 163.03 MHz ( period = 6.134 ns )
+From           : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a0~porta_datain_reg3
+To             : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a3~porta_memory_reg0
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'EN'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 163.03 MHz ( period = 6.134 ns )
+From           : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a0~porta_datain_reg3
+To             : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a3~porta_memory_reg0
+From Clock     : EN
+To Clock       : EN
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ad10'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 163.03 MHz ( period = 6.134 ns )
+From           : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a0~porta_datain_reg3
+To             : 2114:inst1|RAM:inst|altsyncram:altsyncram_component|altsyncram_vta1:auto_generated|ram_block1a3~porta_memory_reg0
+From Clock     : ad10
+To Clock       : ad10
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

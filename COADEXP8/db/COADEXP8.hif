@@ -1,0 +1,91 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+COADEXP8
+# storage
+db|COADEXP8.(0).cnf
+db|COADEXP8.(0).cnf
+# case_insensitive
+# source_file
+COADEXP8.bdf
+76e337f5e81c14b57f731c32ba609c9e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+divide_led
+# storage
+db|COADEXP8.(1).cnf
+db|COADEXP8.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+COADEXP8.v
+39e90d074ce12c6f80ab7e25a71beb
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+HW
+8
+PARAMETER_SIGNED_DEC
+USR
+LW
+8
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+divide_led:inst
+}
+# macro_sequence
+
+# end
+# complete
+
